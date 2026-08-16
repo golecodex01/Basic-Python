@@ -1,0 +1,6 @@
+name=input("Enter Your Name : )
+Age =input("Enter Your Age : )
+Phone =input("Enter Your Phone Number  : )
+print("Name : ",name)
+print("Age : ",Age)
+print("Phone : ",Phone)

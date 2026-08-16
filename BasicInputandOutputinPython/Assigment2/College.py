@@ -1,0 +1,6 @@
+name=input("Enter Your College Name : ")
+Course =input("Enter Course Name : ")
+yeaR=input("Enter Your year : ")
+print("College name : ",name)
+print("Course : ",Course)
+print("Year :  ",yeaR)

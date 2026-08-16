@@ -1,0 +1,12 @@
+num=int(input("Enter your Id "))
+rev=0
+temp=num
+while num>0:
+    digit=num%10
+    rev=rev*10+digit
+    num=num//10
+
+dif=abs(temp-rev)
+count=0
+while  dif>0:
+    d=dif%10
