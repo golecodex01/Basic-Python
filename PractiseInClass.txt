@@ -1,0 +1,86 @@
+2.
+Secure Password Analysis
+
+A cybersecurity team wants to identify pairs of passwords having no common characters.
+
+Problem Statement:
+
+Given N strings, count the number of pairs that do not share any common character.
+
+Example:
+
+Input
+
+N = 4
+passwords[] = {"abc", "de", "fg", "ad"}
+
+Output
+
+3
+
+Explanation
+
+("abc","de")
+("abc","fg")
+("de","fg")
+
+
+3.
+
+MATRIX PERFORMANCE EVALUATION SYSTEM
+
+A company records the monthly performance scores of employees in a matrix format. Each row represents an employee and each column represents a month.
+
+The HR department wants a menu-driven application to analyze employee performance.
+
+Menu
+1. Find Employee with Highest Total Score
+2. Find Month with Lowest Average Score
+3. Display Employee-wise Maximum Score
+4. Exit
+Requirements
+Choice 1 – Find Employee with Highest Total Score
+Calculate the sum of each row.
+Display the employee number having the highest total score.
+Choice 2 – Find Month with Lowest Average Score
+Calculate the average of each column.
+Display the month having the lowest average score.
+Choice 3 – Display Employee-wise Maximum Score
+Find and display the maximum value present in each row.
+Sample Input
+10 20 30
+40 50 60
+25 35 45
+Output
+Employee 2 has Highest Total Score = 150
+
+Month 1 Average = 25
+Month 2 Average = 35
+Month 3 Average = 45
+
+Employee 1 Max Score = 30
+Employee 2 Max Score = 60
+Employee 3 Max Score = 45
+
+
+5.
+
+Rearrange the array in alternating positive and negative items
+Given an unsorted array Arr of N positive and negative numbers.
+Your task is to create an array of alternate positive and negative numbers
+without changing the relative order of positive and negative numbers.
+Note: Array should start with positive number.
+
+Example 1:
+Input:
+N = 9
+Arr[] = {9, 4, -2, -1, 5, 0, -5, -3, 2}
+Output:
+9 -2 4 -1 5 -5 0 -3 2
+Example 2:
+Input:
+N = 10
+Arr[] = {-5, -2, 5, 2, 4, 7, 1, 8, 0, -8}
+Output:
+5 -5 2 -2 4 -8 7 1 8 0
+'''
